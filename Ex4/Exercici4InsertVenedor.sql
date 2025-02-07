@@ -1,4 +1,4 @@
-use `Exercici 4`;
+use Exercici4;
 INSERT INTO Venedor (idVenedor, DNI, Nom, NumSS)
 VALUES ("1", "41607498D", "Xavi", "081523567809");
 INSERT INTO Venedor (idVenedor, DNI, Nom, NumSS)

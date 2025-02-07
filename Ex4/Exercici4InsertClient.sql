@@ -1,4 +1,4 @@
-use `Exercici 4`;
+use Exercici4;
 INSERT INTO Clients (idClients, DNI, Nom, Cognoms, VIP)
 VALUES ("1", "24513956C", "Paco", "Gerte", 0);
 INSERT INTO Clients (idClients, DNI, Nom, Cognoms, VIP)

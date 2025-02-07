@@ -1,7 +1,7 @@
-use `Exercici 4`;
-INSERT INTO Polissa (idPolissa, NumPolissa, PreuAnual, TipusPagament, DataContratacio, IniciVigencia, FiVigencia)
-VALUES ("1", "8473291586204751930467281", "300", "Mensual", "13/07/2024", "13/07/2024", "13/07/2025");
-INSERT INTO Polissa (idPolissa, NumPolissa, PreuAnual, TipusPagament, DataContratacio, IniciVigencia, FiVigencia)
-VALUES ("2", "5930284761203948571620439", "250", "Mensual", "01/03/2024", "01/03/2024", "01/03/2025");
-INSERT INTO Polissa (idPolissa, NumPolissa, PreuAnual, TipusPagament, DataContratacio, IniciVigencia, FiVigencia)
-VALUES ("3", "7604851928374650293847612", "400", "Mensual", "28/10/2024", "01/11/2024", "01/11/2025")
+use Exercici4;
+INSERT INTO Polissa (idPolissa, NumPolissa, PreuAnual, DataContratacio, IniciVigencia, FiVigencia, Clients_idClients, Venedor_idVenedor, TipusPolissa_idTipuspolissa)
+VALUES ("1", "0000001", "230", "29/08/2024", "01/09/2024", "01/09/2025", "3", "1", "2");
+INSERT INTO Polissa (idPolissa, NumPolissa, PreuAnual, DataContratacio, IniciVigencia, FiVigencia, Clients_idClients, Venedor_idVenedor, TipusPolissa_idTipuspolissa)
+VALUES ("2", "0000002", "70", "20/12/2024", "22/12/2024", "01/01/2025", "2", "1", "4");
+INSERT INTO Polissa (idPolissa, NumPolissa, PreuAnual, DataContratacio, IniciVigencia, FiVigencia, Clients_idClients, Venedor_idVenedor, TipusPolissa_idTipuspolissa)
+VALUES ("3", "0000003", "250", "20/05/2024", "20/05/2024", "20/05/2025", "1", "3", "2");

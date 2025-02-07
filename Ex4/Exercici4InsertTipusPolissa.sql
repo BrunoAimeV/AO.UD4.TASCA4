@@ -1,4 +1,4 @@
-use `Exercici 4`;
+use Exercici4;
 INSERT INTO TipusPolissa (idTipusPolissa, Nom, Descripcio)
 VALUES ("1", "Vida", "Polissa de vida");
 INSERT INTO TipusPolissa (idTipusPolissa, Nom, Descripcio)
